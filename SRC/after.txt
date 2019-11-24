@@ -1,0 +1,26 @@
+What to do with your new system?
+
+try out kodi!
+if you installed the optional packadges you have Kodi the best mediacenter software avalible.
+
+try Krita
+Krita is a free Image software similar to photoshop with a sleek and userfriendly interface.
+
+Check out Libre office!
+You have a Office suit now called LibreOffice. check it out. it can open, create, modify and work with any standard office files.
+
+Checkout Calibre
+calibre is a all in one reader for PDF Ebook's comic's  and much more. all with a library to keep all your reading in one convinient place.
+
+Browse the web with opera
+Opera like many web browser is able to browse to any webpage, it has plugins, is compatible with chrome plugins, FAST, comes with an adblocker and is easy to use.
+
+Enjoy your bloat free system
+all bloatwares have been removed from your system. so enjoy a faster than fresh system.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+if you would like native adblocking on EVERY app on the system check out the README.txt file for easy instructions
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+Thank you for using thease automation script's ^_^
+-Laclica
