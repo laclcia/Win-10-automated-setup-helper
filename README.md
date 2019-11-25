@@ -10,6 +10,14 @@ this has been tested in the lastest version of windows 10 as of this writing and
 
 if you encounter issues, bug's or have suggestions for new options, softwares, etc. to ad to this please open an issue in the issue tracker of this repo.
 
+# what does it do?
+ 1. install's an asortement of softwares depending on your selection duting the setup using Chocolatey
+ 
+ 2. remove's bloatwares from windows 10 instalation
+ 
+ 3. disables some useless and bloaty services.
+ 
+ 4. has an optional hosts file for adblocking that can be manually installed.
 
 # FAQ
 Q: my internet is now suddenly slow after installing the host file. what do i do?
@@ -17,4 +25,4 @@ A: rightclick on the dns.reg file in the release folder and select merge and ans
 
 have fun
 
-last updates 24th nov 2019 7:13pm EST
+#last updates 24th nov 2019 7:13pm EST
