@@ -25,4 +25,5 @@ A: rightclick on the dns.reg file in the release folder and select merge and ans
 
 have fun
 
-#last updates 24th nov 2019 7:20pm EST
+# last release updates 24th nov 2019 7:20 Pm EST
+# Last source update 17th of Feb 2020 6:03 Pm EST
