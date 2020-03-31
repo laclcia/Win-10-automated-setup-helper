@@ -23,8 +23,11 @@ if you encounter issues, bug's or have suggestions for new options, softwares, e
  (https://github.com/CHEF-KOCH/GamingTweaks/blob/master/OS%20(general)/Readme.md)
 
 # FAQ
-Q: my internet is now suddenly slow after installing the host file. what do i do?
+**Q: my internet is now suddenly slow after installing the host file. what do i do?**
 A: rightclick on the dns.reg file in the release folder and select merge and answer yes. then restart your computer. the problem is caused by window's dns cache taking a long time to cache the hosts file on some system configuration. the dns.reg file contain's the fix and should be installed trought the normal process described in the README file but if it hasent for some reason can be manually applied.
+
+**Q: Why do you turn off telemetry ?**
+A: Windows 10 telemetry is know in many cases to create stutters in both games and normal every usage. those stutters can varry from minor to major slow down's of the whole windows 10 system. as this project is made to create a seamless installation experiance and fix most of the problems people are experiencing with windows 10 such a fix is a no brainer as to if it should be included.
 
 have fun
 
