@@ -18,6 +18,9 @@ if you encounter issues, bug's or have suggestions for new options, softwares, e
  3. disables some useless and bloaty services.
  
  4. has an optional hosts file for adblocking that can be manually installed.
+ 
+ 5. turn's off telemetry on logon using a script and windows task skeduler. method taken from 
+ (https://github.com/CHEF-KOCH/GamingTweaks/blob/master/OS%20(general)/Readme.md)
 
 # FAQ
 Q: my internet is now suddenly slow after installing the host file. what do i do?
@@ -25,5 +28,5 @@ A: rightclick on the dns.reg file in the release folder and select merge and ans
 
 have fun
 
-# last release updates 24th nov 2019 7:20 Pm EST
-# Last source update 17th of Feb 2020 6:03 Pm EST
+# last release updates 30th mar 2020 11:50 Pm EST
+# Last source update 30th mar 2020 11:50 Pm EST
