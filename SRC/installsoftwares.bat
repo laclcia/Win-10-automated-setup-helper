@@ -37,11 +37,12 @@ choco install libreoffice-fresh -y
 choco install steam -y
 choco install vcredist-all -y
 choco install hashtab -y
+choco install powertoys -y
 
 cls
 echo.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-EHCO  Would you like to have the most popular emulator's installed?
+ECHO  Would you like to have the most popular emulator's installed?
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 echo.
 echo  1 - YES
@@ -82,6 +83,7 @@ choco install libreoffice-fresh -y
 choco install vcredist-all -y
 choco install hashtab -y
 choco install unchecky -y
+choco install powertoys -y
 GOTO QUEU1
 
 :MIN
@@ -98,6 +100,7 @@ choco install libreoffice-fresh -y
 choco install vcredist-all -y
 choco install hashtab -y
 choco install unchecky -y
+choco install powertoys -y
 GOTO QUEU1
 
 
