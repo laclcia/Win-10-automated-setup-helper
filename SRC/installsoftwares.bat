@@ -4,7 +4,7 @@ cls
 ECHO.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ECHO Whelcome to Laclica's computer setup script install step
-ECHO PRESS 1, 2 OR 3 to select your task, or 4 to EXIT.
+ECHO PRESS 1, 2 OR 3 then Enter to select your install type, or 4 to EXIT.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ECHO.
 ECHO 1 - install for gamers
@@ -31,14 +31,13 @@ choco install winrar -y
 choco install inkscape -y
 choco install paint.net -y
 choco install k-litecodecpackfull -y
-choco install opera -y
 choco install calibre -y
 choco install libreoffice-fresh -y
 choco install steam -y
 choco install vcredist-all -y
 choco install hashtab -y
 choco install powertoys -y
-
+choco install autohotkey.install -y
 cls
 echo.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -49,7 +48,7 @@ echo  1 - YES
 echo  2 - NO
 SET /P M=Type 1 or 2 then press ENTER:
 IF %M%==1 GOTO EMU
-IF %M%==2 GOTO QUEU1
+IF %M%==2 GOTO GOGQ
 
 :EMU
 choco install retroarch -y
@@ -62,7 +61,24 @@ echo  Please take note that the ps2 emulator requires Bios files to run and thos
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 echo.
 pause
-GOTO QUEU1
+GOTO GOGQ
+
+:GOGQ
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+ECHO  Would you like to have GOGgalaxy installed?
+ECHO  it is the GOG equivalent of the steam software interface.
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+echo.
+echo  1 - YES
+echo  2 - NO
+SET /P M=Type 1 or 2 then press ENTER:
+IF %M%==1 GOTO GOGI
+IF %M%==2 GOTO BROC
+
+:GOGI
+cls
+choco install goggalaxy -y
+GOTO BROC
 
 :CASUAL
 cls
@@ -77,14 +93,14 @@ choco install paint.net -y
 choco install k-litecodecpackfull -y
 choco install krita -y
 choco install drawpile -y
-choco install opera -y
+
 choco install calibre -y
 choco install libreoffice-fresh -y
 choco install vcredist-all -y
 choco install hashtab -y
 choco install unchecky -y
 choco install powertoys -y
-GOTO QUEU1
+GOTO BROC
 
 :MIN
 cls
@@ -95,15 +111,57 @@ choco install notepadplusplus.install -y
 choco install vlc -y
 choco install calibre -y
 choco install winrar -y
-choco install opera -y
 choco install libreoffice-fresh -y
 choco install vcredist-all -y
 choco install hashtab -y
 choco install unchecky -y
 choco install powertoys -y
+GOTO BROC
+
+:BROC
+cls
+echo.
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+echo Please select your browser of choice
+echo In this step you choose the browser you would like installed
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+echo.
+echo 1 - opera (recomended)
+echo 2 - Firefox
+Echo 3 - Chrome
+Echo 4 - Vivaldi
+Echo 5 - Brave
+SET /P M=Type 1, 2, 3, or 4 then press ENTER:
+IF %M%==1 GOTO OPERA
+IF %M%==2 GOTO FFOX
+IF %M%==3 GOTO CHRO
+IF %M%==4 GOTO VIVA
+IF %M%==5 GOTO BRAV
+
+:OPERA
+cls
+choco install opera -y
 GOTO QUEU1
 
+:FFOX
+cls
+choco install firefox -y
+GOTO QUEU1
 
+:CHRO
+cls
+choco install googlechrome -y
+GOTO QUEU1
+
+:VIVA
+cls
+choco install vivaldi -y
+GOTO QUEU1
+
+:BRAV
+cls
+choco install brave -y
+GOTO QUEU1
 
 :QUEU1
 cls
@@ -127,7 +185,6 @@ choco install audacity -y
 choco install foobar2000 -y
 choco install kodi -y
 choco install imgburn -y
-
 GOTO MBE
 
 :MBE
@@ -147,6 +204,7 @@ IF %M%==2 GOTO MAYBE
 cls
 choco install cpu-z -y
 choco install gpu-z -y
+choco install hwinfo -y
 choco install openhardwaremonitor -y
 choco install 3dmark -y
 choco install furmark -y
@@ -182,15 +240,33 @@ echo 1 - YES
 echo 2 - NO
 SET /P M=Type 1, 2, 3, or 4 then press ENTER:
 IF %M%==1 GOTO UNCH
-IF %M%==2 GOTO POSINST
+IF %M%==2 GOTO CCLEA
 
 :UNCH
 cls
 choco install unchecky -y
+GOTO CCLEA
+
+:CCLEA
+echo.
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+echo would you like to install CCleaner? 
+echo it is a software to clean unused temporary files for optimisation
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+echo.
+echo 1 - YES
+echo 2 - NO
+SET /P M=Type 1, 2, 3, or 4 then press ENTER:
+IF %M%==1 GOTO CCINST
+IF %M%==2 GOTO POSINST
+
+:CCINST
+cls
+choco install ccleaner -y
+choco install ccenhancer -y
 GOTO POSINST
 
 :POSINST
-
 cls
 ECHO.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
