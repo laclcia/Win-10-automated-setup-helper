@@ -33,5 +33,5 @@ A: Windows 10 telemetry is know in many cases to create stutters in both games a
 
 have fun
 
-# last release updates 29th apr 2020 7:03 AM EST
-# Last source update 29th apr 2020 7:03 AM EST
+# last release updates 1st MAY 2020 
+# Last source update 1st MAY 2020 
