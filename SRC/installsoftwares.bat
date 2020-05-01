@@ -4,6 +4,28 @@ cls
 ECHO.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ECHO Whelcome to Laclica's computer setup script install step
+ECHO Installing basic app's for all profiles
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+ECHO.
+choco install flashplayerplugin -y
+choco install jre8 -y
+choco install 7zip.install -y
+choco install notepadplusplus.install -y
+choco install vlc -y
+choco install calibre -y
+choco install winrar -y
+choco install libreoffice-fresh -y
+choco install vcredist-all -y
+choco install hashtab -y
+choco install powertoys -y
+choco install xna -y
+GOTO MAIN
+
+:MAIN
+cls
+ECHO.
+echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+ECHO Please Choose the type of installation that best fit your usage
 ECHO PRESS 1, 2 OR 3 then Enter to select your install type, or 4 to EXIT.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ECHO.
@@ -20,23 +42,12 @@ IF %M%==4 GOTO POSINST
 
 :GAME
 cls
-choco install flashplayerplugin -y
-choco install jre8 -y
-choco install 7zip.install -y
-choco install notepadplusplus.install -y
-choco install vlc -y
 choco install krita -y
 choco install drawpile -y
-choco install winrar -y
 choco install inkscape -y
 choco install paint.net -y
 choco install k-litecodecpackfull -y
-choco install calibre -y
-choco install libreoffice-fresh -y
 choco install steam -y
-choco install vcredist-all -y
-choco install hashtab -y
-choco install powertoys -y
 choco install autohotkey.install -y
 cls
 echo.
@@ -82,40 +93,16 @@ GOTO BROC
 
 :CASUAL
 cls
-choco install flashplayerplugin -y
-choco install jre8 -y
-choco install 7zip.install -y
-choco install notepadplusplus.install -y
-choco install vlc -y
-choco install winrar -y
 choco install inkscape -y
 choco install paint.net -y
-choco install k-litecodecpackfull -y
 choco install krita -y
 choco install drawpile -y
-
-choco install calibre -y
-choco install libreoffice-fresh -y
-choco install vcredist-all -y
-choco install hashtab -y
 choco install unchecky -y
-choco install powertoys -y
 GOTO BROC
 
 :MIN
 cls
-choco install flashplayerplugin -y
-choco install jre8 -y
-choco install 7zip.install -y
-choco install notepadplusplus.install -y
-choco install vlc -y
-choco install calibre -y
-choco install winrar -y
-choco install libreoffice-fresh -y
-choco install vcredist-all -y
-choco install hashtab -y
 choco install unchecky -y
-choco install powertoys -y
 GOTO BROC
 
 :BROC
