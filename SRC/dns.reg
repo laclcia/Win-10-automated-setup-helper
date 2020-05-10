@@ -23,3 +23,8 @@
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\xboxgip]
 "Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync]
+"EnableBackupForWin8Apps"=dword:00000000
+"DisableSettingSync"=dword:00000002
+"DisableSettingSyncUserOverride"=dword:00000001
