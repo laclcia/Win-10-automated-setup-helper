@@ -45,6 +45,7 @@ ping google.com >null
 call W10optimisation.bat
 echo wait ...
 ping google.com >null
+call moreprivacy.bat
 cls
 echo answer yes to the following question from the system this is to deactivate mostly useless services from hogging resources
 dns.reg
