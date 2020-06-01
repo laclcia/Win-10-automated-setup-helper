@@ -235,6 +235,7 @@ choco install unchecky -y
 GOTO CCLEA
 
 :CCLEA
+cls
 echo.
 echo -*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 echo would you like to install CCleaner? 
